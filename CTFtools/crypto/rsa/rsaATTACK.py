@@ -5,7 +5,6 @@ import requests
 from math import log2
 from Crypto.Util.number import *
 from re import findall
-from sympy.ntheory.modular import crt
 from primefac import williams_pp1,pollard_pm1
 def get_list_from_file(file,name,split=' = '):
     '''
